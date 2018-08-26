@@ -1,5 +1,5 @@
 #include <msp430g2533.h>//<msp430.h>                //<msp430g2533.h>
-
+//test
 #define RED BIT0
 #define GREEN BIT6
 
