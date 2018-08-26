@@ -1,11 +1,8 @@
 #include <msp430g2533.h>//<msp430.h>                //<msp430g2533.h>
-//cooment from web
+
 #define RED BIT0
 #define GREEN BIT6
 
-/**
- * blink.c
- */
 void main(void)
 {
     WDTCTL = WDTPW + WDTHOLD;       // stop watchdog timer
