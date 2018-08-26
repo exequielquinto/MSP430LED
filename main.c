@@ -1,6 +1,4 @@
 #include <msp430g2533.h>//<msp430.h>                //<msp430g2533.h>
-// add comment
-
 
 #define RED BIT0
 #define GREEN BIT6
@@ -20,7 +18,7 @@ void main(void)
     while(1)
     {
 
-        for(i=60000; i>0; i--);     // delay
+        for(i=6000; i>0; i--);     // delay
         P1OUT ^= (RED+GREEN);               // toggle P1.0
     }
 }
